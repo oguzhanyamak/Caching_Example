@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{97A910D1-4E81-4487-B131-E3C5F54CEDC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemoryCaching\InMemory.Caching.csproj", "{1850EBAD-EB01-4930-A41B-703DCAE2D01E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Pub-Sub", "Redis.Pub-Sub\Redis.Pub-Sub.csproj", "{AA45F483-36C8-420F-BD6C-85DF477766F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Sub-Pub", "Redis.Sub-Pub\Redis.Sub-Pub.csproj", "{15427B64-DD1E-4ACD-8DB0-61458C2836A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingWebApi", "CachingWebApi\CachingWebApi.csproj", "{0AC66EF7-9E92-4E9B-9AB4-B03972BE13ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A910D1-4E81-4487-B131-E3C5F54CEDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A910D1-4E81-4487-B131-E3C5F54CEDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A910D1-4E81-4487-B131-E3C5F54CEDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A910D1-4E81-4487-B131-E3C5F54CEDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1850EBAD-EB01-4930-A41B-703DCAE2D01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1850EBAD-EB01-4930-A41B-703DCAE2D01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1850EBAD-EB01-4930-A41B-703DCAE2D01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1850EBAD-EB01-4930-A41B-703DCAE2D01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA45F483-36C8-420F-BD6C-85DF477766F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA45F483-36C8-420F-BD6C-85DF477766F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA45F483-36C8-420F-BD6C-85DF477766F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA45F483-36C8-420F-BD6C-85DF477766F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15427B64-DD1E-4ACD-8DB0-61458C2836A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15427B64-DD1E-4ACD-8DB0-61458C2836A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15427B64-DD1E-4ACD-8DB0-61458C2836A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15427B64-DD1E-4ACD-8DB0-61458C2836A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC66EF7-9E92-4E9B-9AB4-B03972BE13ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC66EF7-9E92-4E9B-9AB4-B03972BE13ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC66EF7-9E92-4E9B-9AB4-B03972BE13ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC66EF7-9E92-4E9B-9AB4-B03972BE13ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1075A7EF-D2A1-4963-AAAC-87E91BF6123B}
+	EndGlobalSection
+EndGlobal
